@@ -59,7 +59,7 @@ if ($currentBranch -ne $Branch -and -not $DryRun) {
   else { git checkout $Branch | Out-Null }
 }
 
-$dirty = (git status --porcelain).Trim()
+$dirty = (git status --porcelain | Out-String).Trim()
 if ($dirty -and -not $DryRun) {
   throw "Working tree has uncommitted changes. Commit or stash them first:`n$dirty"
 }
