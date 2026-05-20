@@ -1,0 +1,35 @@
+{
+    "version":  "0.1.0",
+    "kind":  "hot",
+    "notes":  "Initial release. Edge App Mode launcher, job queue, output folder settings, in-app updater.",
+    "released":  "2026-05-20T18:27:18Z",
+    "min_hot_from":  "0.1.0",
+    "installer_url":  "https://github.com/danbrewer-ankobia/video-transcribe/releases/latest/download/VideoTranscribeSetup.exe",
+    "files":  [
+                  {
+                      "path":  "server/index.mjs",
+                      "sha256":  "ddb964a053b750b96663b1f0111278e420b2d0c58a42c5694e6f81e977ea52f7",
+                      "size":  1415806
+                  },
+                  {
+                      "path":  "server/transcribe.py",
+                      "sha256":  "77c9e5199b9ec958cf9f632079cdb4e8dea7b7d343ee940afe3bee8d99545967",
+                      "size":  4765
+                  },
+                  {
+                      "path":  "ui/index.html",
+                      "sha256":  "d8f6f7888ba0e56c2f9cc9c5c325e05b17154b9db9e0370209ee0bdecaa0e502",
+                      "size":  401
+                  },
+                  {
+                      "path":  "ui/assets/index-BgdJVw0p.css",
+                      "sha256":  "e49fdaafa9f9e4baaa59180d0cb5ce1afa2153b0a9872fae7fbd089107491222",
+                      "size":  6795
+                  },
+                  {
+                      "path":  "ui/assets/index-Csyz7Hyn.js",
+                      "sha256":  "bf92b2775bff5edc0c1544a84c83490d0723ef99a258cc917c9744d44de2c867",
+                      "size":  160297
+                  }
+              ]
+}
