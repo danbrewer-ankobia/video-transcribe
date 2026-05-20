@@ -1,0 +1,30 @@
+# Node + build artifacts
+node_modules/
+dist/
+dist-server/
+
+# Installer build artifacts (large, regenerable)
+dist-installer/
+.build-cache/
+installer/output/
+*.exe
+
+# Runtime user data
+uploads/
+.env
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Windows
+desktop.ini
+Thumbs.db
